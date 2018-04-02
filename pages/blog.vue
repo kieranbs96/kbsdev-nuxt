@@ -1,23 +1,21 @@
 <template lang="pug">
   div.wrapper
-    app-header
+    app-miniheader
+    .container
+      h1 Blog
     app-footer
 
 </template>
 
 <script>
-import Header from "../components/Header";
-import About from "../components/About";
-import Projects from "../components/Projects";
+import MiniHeader from "../components/MiniHeader";
 import Footer from "../components/Footer";
 
 export default {
   name: "Home",
   components: {
-    "app-header": Header,
-    "app-about": About,
-    "app-projects": Projects,
-    "app-footer": Footer
+    "app-footer": Footer,
+    "app-miniheader": MiniHeader
   }
 };
 </script>

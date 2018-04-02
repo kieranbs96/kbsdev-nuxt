@@ -1,0 +1,64 @@
+.miniheader {
+  color:$color-white;
+  padding:1.5rem 2.5rem;
+  background-color:$primary-color;
+
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content: space-between;
+
+  &-wrapper {
+    position: relative;
+  }
+
+  &__logo {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    h2 {
+      color: $color-white;
+      margin-left: 3rem;
+      font-size:4rem;
+      line-height: 1;
+      margin-top: .3rem;
+    }
+  }
+
+  &__menu {
+
+  }
+
+  &__list {
+    list-style:none;
+
+  }
+
+  &__item {
+    display:inline-block;
+
+  }
+
+  &__link {
+    color: $color-white;
+    text-decoration: none;
+    margin: 0 .5rem;
+    font-size: 2rem;
+    transition: all .3s;
+    padding-bottom:.3rem;
+    &:hover {
+      color: $color-grey-light-2;
+      border-bottom: 2px solid $primary-color-light;
+    }
+  }
+}
+
+.diagonal {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  fill: $primary-color-light;
+  height: 24px;
+  width: 100%;
+}

@@ -1,9 +1,8 @@
 {
-  "name": "nuxt-vue",
+  "name": "kbs-nuxt-dev",
   "version": "1.0.0",
-  "description": "Nuxt.js project",
+  "description": "kbsdev - Nuxt.js project",
   "author": "kieranbs96 <kieranbs96@gmail.com>",
-  "private": true,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
@@ -14,7 +13,9 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "nuxt": "^1.0.0"
+    "nuxt": "^1.0.0",
+    "scrollto-with-animation": "^4.5.2",
+    "vue-disqus": "^2.0.4"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",

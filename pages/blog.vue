@@ -1,9 +1,8 @@
 <template lang="pug">
   div.wrapper
     app-header
-    app-about
-    app-projects
     app-footer
+
 </template>
 
 <script>
@@ -22,5 +21,3 @@ export default {
   }
 };
 </script>
-
-

@@ -1,0 +1,71 @@
+.contact {
+    padding:4rem 0;
+    
+    &__heading {
+        text-align:center;
+        display:block;
+    }
+
+    &__form {
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    &__group {
+        display:block;
+        width:92%;
+        margin:0 auto;
+        min-width:30%;
+        margin: 1rem 0;
+        border-bottom:2px solid transparent;
+        height:40px;
+    
+        & input:focus, input:active {
+            border-bottom:2px solid $primary-color;
+        }
+
+        @include respond (tab-port) {
+            display:flex;
+            width:auto;
+        }
+    }
+
+    &__label {
+        display:none;
+    }
+
+    &__input {
+        width:100%;
+        border:1px solid #646464;
+        padding:1rem;
+        transition:all 0.1s;
+        color: rgb(90, 90, 90);
+        height:38px;
+
+
+        @include respond(tab-port) {
+            flex: 1;
+            width:auto;
+        }
+
+        &::placeholder {
+            color: rgb(150, 150, 150);
+            font-size:1rem;
+        }
+
+        &:focus, &:active {
+            outline:0;
+        }
+    }
+
+    &__submit {
+        background-color: $primary-color;
+        border:1px solid $primary-color;
+        color: #fff;
+        &:hover {
+            background-color: $primary-color-light;
+            border-color: $primary-color-light;
+        }
+    }
+}

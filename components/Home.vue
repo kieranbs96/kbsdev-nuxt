@@ -7,10 +7,10 @@
 </template>
 
 <script>
-import Header from "../components/Header";
-import About from "../components/About";
-import Projects from "../components/Projects";
-import Footer from "../components/Footer";
+import Header from "./Header";
+import About from "./About";
+import Projects from "./Projects";
+import Footer from "./Footer";
 
 export default {
   name: "Home",
@@ -22,5 +22,3 @@ export default {
   }
 };
 </script>
-
-

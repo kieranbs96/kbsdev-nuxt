@@ -1,0 +1,19 @@
+.home {
+    @include absoluteCenter;
+}
+
+.scroll {
+    position:absolute;
+    left:50%;
+    bottom: 2rem;
+    transform:translate(-50%, 0);
+    @include respond(phone) {
+        bottom:20%;
+    }
+
+    &__icon {
+        animation: scrollBounce 2s infinite;
+        color:$color-white;
+        font-size:3rem;
+    }
+}

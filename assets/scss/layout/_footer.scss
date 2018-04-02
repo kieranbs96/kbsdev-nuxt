@@ -1,0 +1,73 @@
+.footer-area {
+    color:$color-white;
+    padding:5rem 0;
+    text-align:center;
+    font-size:2.5rem;
+    background-color:$primary-color;
+
+    &__logo img {
+        height: 8rem;
+        width: auto;
+        padding: 1.5rem 7rem;
+        border-bottom: 1px solid rgba($color-white, 0.2);
+    }
+    &__links {
+    margin:1rem 0;
+    & > * {
+        display:inline-block;
+        margin:0 1rem;
+        & > a {
+
+            & svg {
+            color:#fff;
+            transition:all .3s;
+                &:hover {
+                    color:$color-white;
+                    transform: translateY(-0.3rem) scale(1.1);
+                }
+            }
+        }
+    }
+
+    }
+    &__contact {
+        width:17rem;
+        margin:1rem auto;
+        @include clearfix;
+        svg {
+            position:relative;
+            top: -7px;
+        }
+        &--mail-link {
+            text-decoration:none;
+            color:#fff;
+            width:100%;
+            font-size: 4rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            & .say-hi {
+                text-align:left;
+                font-size: 3rem;
+                transition: all .2s;
+
+                &:hover {
+                    transform: translateY(-0.5rem) scale(1.1);
+                }
+            }
+        }
+    }
+}
+
+
+.subFooter {
+
+    &__message {
+        text-align: right;
+        padding: 1rem;
+
+        &-heart {
+            color: red;
+        }
+    }
+}

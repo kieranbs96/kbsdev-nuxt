@@ -1,30 +1,26 @@
 module.exports = {
-  /*
-  ** Headers of the page
-  */
   head: {
-    title: 'nuxt-vue',
+    title: 'Kieran Smith - Web Developer 👋',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Nuxt.js project' }
+      { hid: 'description', name: 'My name is Kieran Smith, I am a Front End Web Developer based in London, England, United Kingdom. I create bespoke websites and web apps using modern web technologies such as HTML, CSS, Javascript including React & jQuery.' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
+    ],
+    script: [
+    ],
   },
-  /*
-  ** Customize the progress bar color
-  */
+  css: [
+    './assets/main.css'
+  ],
   loading: { color: '#3B8070' },
-  /*
-  ** Build configuration
-  */
   build: {
     /*
     ** Run ESLint on save
     */
-    extend (config, { isDev, isClient }) {
+    extend(config, { isDev, isClient }) {
       if (isDev && isClient) {
         config.module.rules.push({
           enforce: 'pre',

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html {{ HTML_ATTRS }}>
+
+  <head>
+    {{ HEAD }}
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+          "gtm.start": new Date().getTime(),
+          event: "gtm.js"
+        });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-M7JW7L2");
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <script>
+      FontAwesomeConfig = { searchPseudoElements: true };
+    </script>
+    <script async defer src="https://pro.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-DtPgXIYsUR6lLmJK14ZNUi11aAoezQtw4ut26Zwy9/6QXHH8W3+gjrRDT+lHiiW4"
+      crossorigin="anonymous"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+  </head>
+
+  <body {{ BODY_ATTRS }}>
+    {{ APP }}
+  </body>
+
+</html>

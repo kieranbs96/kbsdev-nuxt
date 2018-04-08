@@ -8,8 +8,8 @@
 
     @include respond(phone) {
         clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
-        height:60vh;
-        min-height: 40rem;
+        height: 40vh;
+        min-height: 34rem;
     }
 
     &__mb-only {
@@ -102,7 +102,7 @@
         &--name {
             margin-left: 10px;
             font-size: 2rem;
-            
+
         }
     }
 

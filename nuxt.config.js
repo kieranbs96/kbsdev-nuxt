@@ -30,5 +30,8 @@ module.exports = {
         })
       }
     }
-  }
+  },
+  modules: [{
+    src: '@nuxtjs/blog',
+  }]
 }

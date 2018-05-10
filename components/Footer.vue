@@ -29,6 +29,9 @@ div
           a(href="//codepen.io/kieranbs96/" target="_blank" class="codepen__link")
            i.fab.fa-codepen
 
+        div.footer-area__links--lastfm
+          a(href="//www.last.fm/user/kieranbs96" target="_blank" class="codepen__link")
+           i.fab.fa-lastfm
 
   div.subFooter
     p.subFooter__message Created with

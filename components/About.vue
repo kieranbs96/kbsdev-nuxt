@@ -3,7 +3,14 @@ div.about
   div.container
     h2.about__heading 👋 My name is Kieran
     div.about__text
-      p I'm an enthusiastic Junior Web Developer located in London, originally from Surrey. I have a genuine interest in the Web, I am extremely keen to advance my knowledge in and master the most modern technologies. During my leisure time, I participate in and enjoy swimming, cycling, playing/watching football (I support Chelsea to save the disappointment for future!), learning/advancing my knowledge in tech, browsing Social Media (primarily Twitter) reading articles on Medium, notably Codeburst.io, FreeCodeCamp &amp; Hackernoon. Below is a list of skills I possess and looking to advance.
+      p I'm an enthusiastic Front-End Web Developer located in London, 🇬🇧, originally from Surrey. I am extremely keen to advance my knowledge in and master the most modern technologies. During my leisure time, I enjoy swimming, cycling, playing/watching football (I support Chelsea to save the disappointment for the future!), browsing Social Media (primarily Twitter), reading articles on Medium; notably Codeburst.io, FreeCodeCamp &amp; Hackernoon.
+
+      br
+
+      p To learn/advance my knowledge I use the following sources; egghead.io, Frontend Masters, Wes Bos &amp; Tyler McGinnis.
+        br
+        span Below is a list of my skills.
+        br
 
     div.about__skills
       div.about__skill
